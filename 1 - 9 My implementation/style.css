@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #10131c;
+}
+
+.navigation 
+{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	background: #212531;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-delay: 0.8s;
+}
+
+.navigation.active 
+{
+	width: 200px;
+	height: 200px;
+	transition-delay: 0s;
+}
